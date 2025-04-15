@@ -710,7 +710,7 @@ LanguageModelList: list[LanguageModel] = [
     LMStyle.CodeLLaMaInstruct,
     None, # release_date unknown
     link="https://huggingface.co/NaoS2/tinycodellama-jp-0.6b-20k",
-),
+    )
 ]
 
 LanguageModelStore: dict[str, LanguageModel] = {
