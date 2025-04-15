@@ -704,6 +704,13 @@ LanguageModelList: list[LanguageModel] = [
         datetime(2025, 3, 12),
         "https://www.wenxiaobai.com/",
     ),
+    LanguageModel(
+    "NaoS2/tinycodellama-jp-0.6b-20k",
+    "NaoS2/tinycodellama-jp-0.6b-20k",
+    LMStyle.CodeLLaMaInstruct,
+    None, # release_date unknown
+    link="https://huggingface.co/NaoS2/tinycodellama-jp-0.6b-20k",
+),
 ]
 
 LanguageModelStore: dict[str, LanguageModel] = {
